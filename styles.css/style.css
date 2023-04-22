@@ -4,6 +4,7 @@
 margin: 0;
 padding: 0;
 }
+
 :root {
     --cor-primaria: #675D50 ;
     --cor-secundaria: #3C2A21;
@@ -116,6 +117,7 @@ background-color:var(--cor-secundaria);
 .apresentacao__imagem{
     width: 50%;
     }
+
 .rodape {
     background-color:var(--cor-secundaria);
     color: var(--cor-terciaria);
@@ -132,12 +134,17 @@ background-color:var(--cor-secundaria);
        padding: 10%; 
     }
     .cabecalho__menu{
-        justify-content: center;
+       justify-content: center;
+       gap: 40px;
     }
-
 
     .apresentacao{
        flex-direction: column-reverse;
+       padding: 5%;
+    }
+    
+    .apresentacao__conteudo{
+        width: auto;
     }
 
     }
